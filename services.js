@@ -6,42 +6,42 @@ module.exports =
 	version: "master"
 }, {
 	name: "real-time",
-	repo: "https://github.com/sharelatex/real-time-sharelatex.git",
+	repo: "https://github.com/overleaf/real-time.git",
 	version: "master"
 }, {
 	name: "document-updater",
-	repo: "https://github.com/sharelatex/document-updater-sharelatex.git",
+	repo: "https://github.com/overleaf/document-updater.git",
 	version: "master"
 }, {
 	name: "clsi",
-	repo: "https://github.com/sharelatex/clsi-sharelatex.git",
+	repo: "https://github.com/overleaf/clsi.git",
 	version: "master"
 }, {
 	name: "filestore",
-	repo: "https://github.com/sharelatex/filestore-sharelatex.git",
+	repo: "https://github.com/overleaf/filestore.git",
 	version: "master"
 }, {
 	name: "track-changes",
-	repo: "https://github.com/sharelatex/track-changes-sharelatex.git",
+	repo: "https://github.com/overleaf/track-changes.git",
 	version: "master"
 }, {
 	name: "docstore",
-	repo: "https://github.com/sharelatex/docstore-sharelatex.git",
+	repo: "https://github.com/overleaf/docstore.git",
 	version: "master"
 }, {
 	name: "chat",
-	repo: "https://github.com/sharelatex/chat-sharelatex.git",
+	repo: "https://github.com/overleaf/chat.git",
 	version: "master"
 }, {
 	name: "spelling",
-	repo: "https://github.com/sharelatex/spelling-sharelatex.git",
+	repo: "https://github.com/overleaf/spelling.git",
 	version: "master"
 }, {
 	name: "contacts",
-	repo: "https://github.com/sharelatex/contacts-sharelatex.git",
+	repo: "https://github.com/overleaf/contacts.git",
 	version: "master"
 }, {
 	name: "notifications",
-	repo: "https://github.com/sharelatex/notifications-sharelatex.git",
+	repo: "https://github.com/overleaf/notifications.git",
 	version: "master"
 }]
