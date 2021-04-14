@@ -90,9 +90,7 @@ COPY ${baseDir}/settings.coffee /etc/sharelatex/settings.coffee
 
 # Install full TexLive2021
 # ------------------------
-RUN cd /usr/local/texlive && \
-&&  wget http://mirror.ctan.org/systems/texlive/tlnet/update-tlmgr-latest.sh \
-&&  sh update-tlmgr-latest.sh -- --upgrade \
+RUN cd /usr/local/texlive \
 &&  tlmgr update --self --all \
 &&  luaotfload-tool -fu \
 &&  tlmgr install scheme-full
