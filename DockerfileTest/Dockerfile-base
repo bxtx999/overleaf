@@ -6,11 +6,9 @@ FROM fred1653/baseimage:18.04-fonts
 
 ENV baseDir .
 
-
 # Makes sure LuaTex cache is writable
 # -----------------------------------
 ENV TEXMFVAR=/var/lib/sharelatex/tmp/texmf-var
-
 
 # Install dependencies
 # --------------------
