@@ -67,6 +67,7 @@ RUN mkdir /install-tl-unx \
       -profile /install-tl-unx/texlive.profile \
       -repository ${TEXLIVE_MIRROR} \
     \
+&&  tlmgr update --self  \
 &&  tlmgr install --repository ${TEXLIVE_MIRROR} \
       latexmk \
       texcount \
